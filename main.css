@@ -68,7 +68,7 @@ body {
 
 .new-todo button:hover,
 .new-todo button:focus {
-    background: #ccc;
+    background: rgb(97, 97, 97);
 }
 
 /* TODO LIST */
@@ -89,6 +89,16 @@ body {
 
 .todo:last-child {
     border-bottom: none;
+}
+
+.fas.fa-times,
+.fas.fa-pen {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.fas.fa-pen {
+    font-size: 13px;
 }
 
 /* COMPLETED */
