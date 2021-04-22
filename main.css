@@ -126,7 +126,7 @@ body {
 }
 
 .todo .text.completed::before {
-    background: #00e165;
+    background: #202221;
 }
 
 /* SVG SHAPES */
